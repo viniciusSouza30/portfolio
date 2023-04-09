@@ -1,0 +1,160 @@
+:root{
+    --blue-5: #010338;
+    --white-2: #F1F1F1;
+    --black-2: #222222;
+}
+
+body{
+    background-color: var(--white-2);
+}
+
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h3{
+    color: #222222;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex-column-center{
+    align-items: center;
+    justify-content: center;
+}
+
+footer{
+    background-color: var(--blue-5);
+    height: 158px;
+    color: var(--white-2);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+footer > ul > li > a > span{
+    color: var(--white-2);
+}
+
+footer > ul{
+    margin-top: 36px;
+}
+
+.navbar{
+    width: 100%;
+    height: 118px;
+    background: var(--white-2);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+}
+
+.navbar > ul, footer > ul{
+    display: flex;
+}
+
+.navbar > ul > li, footer > ul > li{
+    list-style: none;
+    padding-right: 44px;
+}
+
+.navbar > ul > li{
+}
+
+.navbar > ul > li > a{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--blue-5);
+}
+
+.navbar > a > img{
+    width: 190px
+}
+
+main{
+    margin-top: 118px;
+}
+
+.banner{
+    background-color: var(--blue-5);
+    height: 65vh;
+}
+
+.banner > .titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--white-2)
+}
+
+.banner > .texto{
+    color: var(--white-2);
+    font-size: 24px;
+    margin-top: 40px;
+    width: 554px;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn-projetos{
+    margin-top: 50px;
+    width: 258px;
+    height: 44px;
+    background-color: var(--white-2);
+}
+
+.btn-projetos > a{
+    color: var(--blue-5);
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p{
+    color: var(--balck-2)
+}
+
+.sobre-mim{
+    padding: 45px 90px 45px 90px;
+}
+
+.img-sobre-mim{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: url('../img/PSX_20230319_223328.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.conteudo-sobre-mim{
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.conteudo-sobre-mim > p{
+    width: 874px;
+    margin-left: 45px;
+}
